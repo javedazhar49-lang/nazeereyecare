@@ -1,0 +1,6 @@
+{
+  "name": "Prime Eye Care",
+  "description": "Premier PMC-certified tertiary ophthalmology hospital and advanced laser eye surgery center.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
