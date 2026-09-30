@@ -127,7 +127,9 @@ export const DrShahidNazeerSection: React.FC<DrShahidNazeerSectionProps> = ({
   ];
 
   return (
-    <section id="dr-nazeer" className="py-20 sm:py-24 bg-white relative overflow-hidden border-b border-slate-200">
+    <section id="about-us" className="py-20 sm:py-24 bg-white relative overflow-hidden border-b border-slate-200">
+      <div id="dr-nazeer" className="absolute -top-24 pointer-events-none"></div>
+      <div id="about" className="absolute -top-24 pointer-events-none"></div>
       {/* Background Optical Accent */}
       <div className="absolute top-1/4 right-0 w-[550px] h-[550px] bg-blue-50/80 rounded-full blur-[140px] pointer-events-none"></div>
       <div className="absolute bottom-10 left-0 w-[450px] h-[450px] bg-sky-50/70 rounded-full blur-[130px] pointer-events-none"></div>

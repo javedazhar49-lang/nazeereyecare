@@ -11,6 +11,8 @@ export const ClinicInfoAndMap: React.FC<ClinicInfoAndMapProps> = ({ onOpenAppoin
   return (
     <section id="location-hours" className="py-28 bg-[#F8FAFC] relative">
       <div id="location" className="absolute -top-24 pointer-events-none"></div>
+      <div id="contact" className="absolute -top-24 pointer-events-none"></div>
+      <div id="contact-us" className="absolute -top-24 pointer-events-none"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Left Column: Location & Contact Architecture */}

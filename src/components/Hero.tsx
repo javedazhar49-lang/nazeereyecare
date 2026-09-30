@@ -20,7 +20,7 @@ export const Hero: React.FC<HeroProps> = ({
   onOpenLocation
 }) => {
   return (
-    <section className="relative min-h-[90vh] pt-32 sm:pt-36 md:pt-40 pb-20 md:pb-28 flex items-center justify-center overflow-hidden bg-gradient-to-b from-blue-50/70 via-white to-slate-50">
+    <section id="home" className="relative min-h-[90vh] pt-32 sm:pt-36 md:pt-40 pb-20 md:pb-28 flex items-center justify-center overflow-hidden bg-gradient-to-b from-blue-50/70 via-white to-slate-50">
       {/* Ambient Optical Background Lighting with gentle breathing motion */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <motion.div 
